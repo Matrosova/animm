@@ -1,0 +1,40 @@
+
+.main {
+  .main__homepage {
+    background-image: url("/src/assets/Background.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    padding-bottom: 12rem;
+
+    .homepage__container {
+      padding: 1rem 0;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+  .homepage__head {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 0 8rem 1rem 8rem;
+
+
+    .homepage__header {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+  }
+  .homepage__body {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1.5rem 1.5rem 3rem;
+    .homepage__bro {
+      position: absolute;
+      width: 125px;
+      right: 60px;
+      bottom: 20px;
+    }
+  }
+  }
+}
